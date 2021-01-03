@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  FIREBASE_CONFIG: {
+    apiKey: "AIzaSyCAl9aWZLWSjbu26Kum8LJ_hghjiTtAUYE",
+    authDomain: "squares-game-64347.firebaseapp.com",
+    projectId: "squares-game-64347",
+    storageBucket: "squares-game-64347.appspot.com",
+    messagingSenderId: "757514759",
+    appId: "1:757514759:web:cb4c727d6631bcc8d060a2",
+    measurementId: "G-RLWPKKE37H"
+  }
 };
 
 /*

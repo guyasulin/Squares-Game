@@ -1,0 +1,7 @@
+<div class="square" >
+    <div class="container">
+      <span *ngFor="let item of squares; let i = index" >
+        <button  type="button" class="box" id="box" (click)="randomColor(item)" [ngStyle]="{'background-color':  item.color}" ></button>
+      </span>
+    </div>
+  </div>

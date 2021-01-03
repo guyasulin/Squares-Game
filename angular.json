@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "squares-game"
+    }
+  },
+  "defaultProject": "squares-game",
+  "cli": {
+    "analytics": "e2e76524-7039-43eb-a2f4-ca430b84832e"
+  }
 }
