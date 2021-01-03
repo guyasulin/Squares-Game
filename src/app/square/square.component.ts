@@ -16,10 +16,7 @@ export class SquareComponent implements OnInit {
 	ngOnInit(): void {}
 
 	randomColor(item: Square) {
-		console.log(item);
 		item.color = '#' + ((Math.random() * 0xffffff) << 0).toString(16);
-		console.log(item);
-		
 		this.onSubmit(item.id, item.color);
 	}
 
