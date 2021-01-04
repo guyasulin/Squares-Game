@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+
+  .board {
+    flex: 1;
+    text-align: -webkit-center;
+    border-right: 2px solid #8080804d;
+  }
+
+  .threejs-meshsquare {
+    flex: 1;
+  }
+}

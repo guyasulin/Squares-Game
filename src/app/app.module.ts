@@ -11,12 +11,14 @@ import { SquareService } from './square.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BoardComponent } from './board/board.component';
 import { SquareComponent } from './square/square.component';
+import { ThreejsMeshsquareComponent } from './threejs-meshsquare/threejs-meshsquare.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BoardComponent,
     SquareComponent,
+    ThreejsMeshsquareComponent,
   ],
   imports: [
     BrowserModule,
